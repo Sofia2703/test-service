@@ -8,7 +8,9 @@ import { IEmployee } from './employee';
 })
 export class EmployeeService {
 
-  private _url: string = "/assets/data/employees.json";
+  // private _url: string = "/assets/data/employees.json";
+
+  private _url: string = "http://127.0.0.1:5002/forecast";
 
   constructor(private http: HttpClient) { }
 

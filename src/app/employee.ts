@@ -1,5 +1,10 @@
+// export interface IEmployee {
+//     id: number,
+//     name: string,
+//     age: number
+// }
+
 export interface IEmployee {
-    id: number,
-    name: string,
-    age: number
+    thin: string,
+    dd: string
 }
